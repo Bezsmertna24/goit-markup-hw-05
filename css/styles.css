@@ -553,11 +553,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #31d0aa;
 }
 
-.footer-form {
+/* .footer-form {
     display: flex;
         flex-direction: column;
         margin-left: 80px;
-}
+} */
 
 .text-form {
     font-weight: 500;
@@ -571,8 +571,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .footer-form-send {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 24px;
 }
 
 .footer-form-label {
