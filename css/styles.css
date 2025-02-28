@@ -705,8 +705,8 @@ input::placeholder {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icon-btn:hover,
-.modal-icon-btn:focus {
+.modal-btn-close:hover .modal-icon-btn use,
+.modal-btn-close:focus .modal-icon-btn use {
     fill: #ffffff;
 }
 
