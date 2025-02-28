@@ -669,7 +669,7 @@ input::placeholder {
     border-radius: 4px;
     width: 408px;
     min-height: 584px;
-    padding: 24px;
+    padding: 72px 24px 24px 24px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -697,6 +697,7 @@ input::placeholder {
 .modal-btn-close:focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
  
 
@@ -722,7 +723,7 @@ input::placeholder {
 }
 
 .hero-form {
-    padding: 72px 24px 24px 24px
+margin-bottom: 8px;
 }
 
 .modal-form-label {
@@ -730,6 +731,7 @@ input::placeholder {
     font-size: 12px;
     line-height: 1.16667;
     letter-spacing: 0.04em;
+    line-height: 1.17;
     color: #8e8f99;
     display: block;
     margin-bottom: 4px;
@@ -749,6 +751,8 @@ input::placeholder {
     padding-left: 38px;
     outline: transparent;
     margin-bottom: 8px;
+    background-color: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-input:focus {
